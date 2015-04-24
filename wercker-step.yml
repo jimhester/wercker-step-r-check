@@ -1,0 +1,8 @@
+name: r-check
+version: 0.0.1
+description: check R package
+properties:
+  warnings_are_errors:
+    type: boolean
+    required: false
+    default: false
