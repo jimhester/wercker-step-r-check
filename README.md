@@ -1,5 +1,5 @@
 # r-check
-[![wercker status](https://app.wercker.com/status/609d79a6bea8ae1ebb8ac4418fca9202/m "wercker status")](https://app.wercker.com/project/bykey/609d79a6bea8ae1ebb8ac4418fca9202)
+[![wercker status](https://app.wercker.com/status/609d79a6bea8ae1ebb8ac4418fca9202/s "wercker status")](https://app.wercker.com/project/bykey/609d79a6bea8ae1ebb8ac4418fca9202)
 
 A step to check an R package.  Best used with one of the
 [rocker](https://registry.hub.docker.com/repos/rocker/) images.
@@ -51,6 +51,9 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.2
+- Use Warning for messaging rather than echo
 
 ## 0.0.1
 - initial release

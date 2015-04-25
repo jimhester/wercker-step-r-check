@@ -1,5 +1,5 @@
 name: r-check
-version: 0.0.1
+version: 0.0.2
 description: check R package
 properties:
   warnings_are_errors:
