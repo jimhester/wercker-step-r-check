@@ -52,6 +52,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.3
+- Add R keyword
+
 ## 0.0.2
 - Use Warning for messaging rather than echo
 
