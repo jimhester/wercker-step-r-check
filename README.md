@@ -52,6 +52,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.5
+- Use info rather than echo for filenames when dumping files
+
 ## 0.0.4
 - Use warn instead of warning, actually cat the output.
 
