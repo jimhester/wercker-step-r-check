@@ -52,6 +52,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.4
+- Use warn instead of warning, actually cat the output.
+
 ## 0.0.3
 - Add R keyword
 
