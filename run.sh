@@ -10,9 +10,9 @@ check () {
   fi
   if [ "$check_result" -ne 0 ] || [ "$warnings" -ne 0 ]; then
     warn "Check Failed, dumping logs"
-    find ./*.Rcheck -type f \( -name "*out" -o -name "*log" -o -name "*fail" \) -exec \
-      echo ">>> File: {} <<<" && \
-      cat {} \;
+    find ./*.Rcheck -type f \( -name "*out" -o -name "*log" -o -name "*fail" \) \
+      -exec echo ">>> File: {} <<<" \; \
+      -exec cat {} \;
     fail "Check Failed"
   else
     success "Checks Passed"
